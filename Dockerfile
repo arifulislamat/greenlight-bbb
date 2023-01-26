@@ -1,5 +1,6 @@
 FROM ruby:2.7.5-alpine3.14 AS base
 
+LABEL maintaner="arifulislamat@gmail.com"
 # Set a variable for the install location.
 ARG RAILS_ROOT=/usr/src/app
 # Set Rails environment.
