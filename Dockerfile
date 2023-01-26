@@ -1,4 +1,4 @@
-FROM ruby:2.7.5-alpine3.14 AS base
+FROM ruby:2.7.6-alpine3.14 AS base
 
 LABEL maintaner="arifulislamat@gmail.com"
 # Set a variable for the install location.

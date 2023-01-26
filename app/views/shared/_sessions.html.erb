@@ -12,7 +12,7 @@
 # You should have received a copy of the GNU Lesser General Public License along
 # with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 %>
-
+<% if @current_user && !@current_user.has_role?(:super_admin) %>
 <div class="sessions pb-5">
   <div class="container pt-6">
 
@@ -124,5 +124,5 @@
     </div>
   </div>
 </div>
-
+<% end %>
 <%= render "shared/modals/delete_recording_modal" %> 
