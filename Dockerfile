@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 FROM ruby:2.7.6-alpine3.14 AS base
+=======
+FROM ruby:2.7.7-alpine3.16 AS base
+>>>>>>> upstream/v2
 
 LABEL maintaner="arifulislamat@gmail.com"
 # Set a variable for the install location.
